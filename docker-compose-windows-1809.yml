@@ -7,7 +7,7 @@ services:
       context: ./vote/dotnet
       dockerfile: Dockerfile.1809
     ports:
-      - "5000:80"
+      - "5000:443"
     depends_on:
       - message-queue
 
